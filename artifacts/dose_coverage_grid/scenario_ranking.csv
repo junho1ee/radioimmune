@@ -1,0 +1,7 @@
+scenario,mean_rel_width90
+dosegrid_total_plus_immune_grid,0.7067032016216045
+dosegrid_total_dose_coverage_grid,0.8791330837412955
+dosegrid_total_fulldose_ladder,0.965967722081654
+dosegrid_total_4arm_d10,0.9732093209276885
+dosegrid_total_partialdose_ladder,0.9880787281909312
+dosegrid_total_2arm_d10,1.1103925490559585

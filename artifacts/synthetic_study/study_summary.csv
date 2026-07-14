@@ -1,0 +1,6 @@
+global_cost,0.088111
+local_cost,0.088028
+residual_norm,0.296695
+posterior_samples,3600
+mean_acceptance_fraction,0.572546
+autocorr_time,34.13,34.69,37.97,40.66

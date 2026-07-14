@@ -1,0 +1,28 @@
+[project]
+name = "radiology-modeling"
+version = "0.1.0"
+description = "Radio-immune model calibration and figure reproduction"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.14",
+  "pandas>=2.2",
+  "matplotlib>=3.9",
+]
+
+[dependency-groups]
+dev = [
+  "ipykernel>=6.29",
+  "jupyterlab>=4.2",
+]
+calibration = [
+  "emcee>=3.1",
+  "arviz>=0.19",
+]
+pinn = [
+  "torch>=2.3",
+  "deepxde>=1.12",
+]
+
+[tool.uv]
+default-groups = ["dev"]
