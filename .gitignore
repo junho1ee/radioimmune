@@ -222,6 +222,6 @@ __marimo__/
 .gjc
 artifacts
 notebooks
-ord_src
+old_src
 ref
 poc_parameter_estimation.md
