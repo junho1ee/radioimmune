@@ -1,6 +1,6 @@
 # Radiology Modeling
 
-A Python project for simulating the effects of radiotherapy and immune responses on tumor volume and fitting model parameters to observed data. It includes Figure 4 reproduction and parameter-recovery experiments using synthetic data.
+A Python project for simulating the effects of radiotherapy and immune responses on tumor volume and fitting model parameters to observed data. The model implementation and Figure 4 reproduction are based on Cho et al. (2023), with additional parameter-recovery experiments using synthetic data.
 
 ## Features
 
@@ -8,7 +8,7 @@ A Python project for simulating the effects of radiotherapy and immune responses
 - Treatment-arm configuration by radiation coverage, dose, and treatment timing
 - Synthetic observation generation and long-format data loading
 - Parameter fitting with differential evolution followed by bounded least squares
-- Figure 4 analysis and visualization in Jupyter
+- Reproduction and visualization of Figure 4 from Cho et al. (2023) in Jupyter
 
 ## Requirements
 
@@ -39,7 +39,7 @@ Start JupyterLab from the repository root:
 uv run jupyter lab
 ```
 
-Open `fig4_fitting.ipynb` in JupyterLab. Restart the notebook kernel if the environment was installed or updated while Jupyter was already running.
+Open `fig4_fitting.ipynb` in JupyterLab to run the Figure 4 reproduction based on Cho et al. (2023). Restart the notebook kernel if the environment was installed or updated while Jupyter was already running.
 
 ## Basic Usage
 
@@ -61,13 +61,17 @@ print(result.total_volume)
 
 ```text
 .
-├── fig4_fitting.ipynb   # Figure 4 fitting and visualization notebook
+├── fig4_fitting.ipynb   # Cho et al. (2023) Figure 4 reproduction notebook
 ├── src/radioim/         # Simulation, data, optimization, and diagnostics package
 ├── pyproject.toml       # Project metadata and dependency configuration
 └── uv.lock              # Reproducible dependency lockfile
 ```
 
 The distribution name is `radiology-modeling`, while the Python import name is `radioim`.
+
+## Reference
+
+Cho, Y.-B., Yoon, N., Suh, J. H., & Scott, J. G. (2023). Radio-immune response modelling for spatially fractionated radiotherapy. *Physics in Medicine & Biology, 68*(16), 165010. https://doi.org/10.1088/1361-6560/ace819
 
 ## License
 
