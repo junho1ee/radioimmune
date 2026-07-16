@@ -1,8 +1,0 @@
-global_cost=0.088111
-local_cost=0.088028
-residual_norm=0.296695
-parameter,true,fitted,rel_error_pct
-psi,300,305.289,1.76
-omega,0.135,0.13715,1.59
-k,1.1,1.10452,0.41
-initial_volume,0.03,0.0299846,-0.05
